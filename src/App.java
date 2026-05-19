@@ -1,3 +1,4 @@
+import models.Movie;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -16,6 +17,7 @@ public class App {
      * @return Array de películas sin ordenar
      */
     public static Movie[] generateMoviesList() {
+        
         Movie[] movies = new Movie[25];
         movies[0] = new Movie("Inception", 2010);
         movies[1] = new Movie("avatar", 2009);
@@ -44,4 +46,5 @@ public class App {
         movies[24] = new Movie("Iron Man", 2008);
         return movies;
     }
+    
 }

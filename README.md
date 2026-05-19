@@ -63,8 +63,8 @@ DESPUÉS
 
 Actualiza `student.env`:
 ```text
-STUDENT_NAME=Tu Nombre Completo
-STUDENT_EMAIL=tu.email@universidad.edu
+STUDENT_NAME= Josue Calle
+STUDENT_EMAIL= ccallei@est.ups.edu.ec
 ```
 
 ## Calificación automática
